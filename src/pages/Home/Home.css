@@ -1,0 +1,14 @@
+.home {
+    width: 60%;
+
+    flex-direction: column;
+
+    row-gap: 3rem;
+}
+
+.my-skills h2,
+.projects h2
+{
+    font-weight: 900;
+    margin-bottom: 0.75rem;
+}

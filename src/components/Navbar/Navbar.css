@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1rem 0 0;
+}
+
+.navbar .navbar-icon{
+    display: flex;
+    align-items: center;
+
+    column-gap: 0.35rem;
+}
+
+.navbar-icon .name{
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.navbar-routes {
+    column-gap: 1.5rem;
+    font-weight: 700;
+}
