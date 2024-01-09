@@ -7,8 +7,102 @@
 }
 
 .my-skills h2,
-.projects h2
+.projects h2,
+.extensions h2
 {
     font-weight: 900;
     margin-bottom: 0.75rem;
+}
+
+.my-skills h3,
+.projects h3,
+.extensions h3
+{
+    font-weight: 800;
+}
+
+.extensions .extension,
+.projects .project
+{
+    width: 100%;
+
+    border: 1px solid var(--border);
+
+    padding: 0.75rem 1rem;
+
+    border-radius: 0.5rem;
+}
+
+.extensions .extension
+{
+    flex-direction: column;
+}
+
+.project .project-img{
+    width: 50%;
+}
+
+.project .project-details{
+    width: 50%;
+    flex-direction: column;
+}
+
+.extension .extension-details{
+    flex-direction: column;
+
+}
+
+.project-img img{
+    width: 80%;
+
+    transform: rotateY(20);
+}
+
+.tech-used .tech-lists{
+    column-gap: 0.5rem;
+    row-gap: 0.25rem;
+
+    flex-wrap: wrap;
+}
+
+.project-details p,
+.extension-details p
+{
+    font-size: 0.75rem;
+}
+
+.project-details h2 ,
+.extension-details h2
+{
+    margin: 0;
+}
+
+.tech-lists .tech-list
+{
+    border: 1px solid var(--border);
+
+    padding: 0.1rem 0.25rem;
+
+    border-radius: 0.1rem;
+
+    color: white;
+    background-color: var(--tech-container);
+}
+
+.project-lists,
+.extension-lists
+{
+    column-gap: 0.75rem;
+}
+
+.project-lists .project-li,
+.extension-lists .extension-li
+{
+    border: 1px solid var(--border);
+
+    padding: 0.1rem 0.5rem;
+
+    column-gap: 0.5rem;
+
+    border-radius: 0.25rem;
 }

@@ -6,6 +6,8 @@ import AboutMe from '../../components/AboutMe/AboutMe';
 import './Home.css';
 import MySkills from '../../components/MySkills/MySkills';
 import Projects from '../../components/Projects/Projects';
+import Extensions from '../../components/Extensions/Extensions';
+import CodingProfiles from '../../components/CodingProfiles/CodingProfiles';
 
 const Home = () => {
     const [dark, isDark] = useState(false);
@@ -16,6 +18,8 @@ const Home = () => {
             <AboutMe/>
             <MySkills/>
             <Projects/>
+            <Extensions/>
+            <CodingProfiles/>
         </div>
     );
 };

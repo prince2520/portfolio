@@ -1,0 +1,18 @@
+.coding-profiles{
+    width: 100%;
+}
+
+.coding-profiles .coding-profiles-lists{
+    column-gap: 1rem;
+}
+
+.coding-profiles-lists .coding-profile-li{
+    flex-direction: row;  
+    
+    column-gap: 0.75rem;
+
+    border: 1px solid var(--border);
+
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.35rem;
+}
