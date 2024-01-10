@@ -13,7 +13,10 @@ const AboutMe = () => {
                 <h3>Hello, I'm</h3>
                 <div className="name">PRINCE</div>
                 <h2>Software Engineer</h2>
-
+                <div className="download-link flex-center">
+                    <button className="button-design cursor-btn">Download Resume</button>
+                    <button className="button-design button-hollow-design cursor-btn">Contact Me</button>
+                </div>
                 <div className="my-socials flex-center">
                     <Icon icon="mdi:linkedin" />
                     <Icon icon="mingcute:youtube-fill" />

@@ -103,7 +103,7 @@ const myExtensions = [
 const Extensions = () => {
     
     return (
-        <div className="extensions flex">
+        <div className="extensions flex-center">
             <h2>EXTENSIONS</h2>
             <div className='extensions-container flex-center'>
             {myExtensions.map (extension =>

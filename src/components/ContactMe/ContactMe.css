@@ -1,0 +1,39 @@
+.contact-me {
+    width: 70%;
+}
+
+.contact-me .contact-data{
+    width: 100%;
+
+    flex-direction: column;
+}
+
+.contact-data input,
+.contact-data textarea
+{
+    width: 100%;
+}
+
+.contact-me .contact-me-container{
+    border: 1px solid var(--border);
+    padding: 2rem 3rem;
+
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contact-data textarea{
+    resize: none;
+
+    min-height: 15rem;
+}
+
+.contact-data input,
+.contact-data textarea
+{
+    width: 100%;
+}
+
+.contact-me-container .send-btn{
+    column-gap: 0.5rem;
+}

@@ -1,0 +1,38 @@
+.educations{
+    width: 100%;
+
+    row-gap: 1rem;
+    flex-direction: column;
+}
+
+.educations .education{
+    width: 100%;
+    justify-content: space-between;
+
+    border-left: 5px solid var(--border);
+    padding-left: 1rem;
+
+}
+
+.education .institute{
+
+}
+
+.institute h3, .institute p{
+    margin: 0;
+    text-align: left;
+}
+
+.institute p{
+    font-size: 0.8rem;
+}
+
+.marks h3{
+    font-size: 0.8rem;
+}
+
+.marks h3,
+.institute h4
+{
+    font-weight: 800;
+}
