@@ -9,19 +9,8 @@
     align-items: center;
 
     padding-bottom: 5rem;
-    border-bottom: 1px solid var(--border);
-
 
     column-gap: 2rem;
-}
-
-.information .name{
-    font-size: 3.5rem;
-    font-weight: 900;
-}
-
-.information h2{
-    font-weight: 800;
 }
 
 .about-me .information{
@@ -38,11 +27,14 @@
 }
 
 .information .my-socials{
-    font-size: 2rem;
     justify-content: flex-start;
     column-gap: 0.75rem;
 }
 
 .information .download-link{
     column-gap: 1rem;
+}
+
+.information .my-socials{
+    font-size: 2rem;
 }

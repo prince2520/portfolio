@@ -7,7 +7,7 @@ function App() {
   const [dark, isDark] = useState(false);
 
   return (
-    <div className={`App ${dark ? 'dark' : ''}`}>
+    <div className={`App dark`}>
       <Home/>
     </div>
   );

@@ -9,18 +9,22 @@ import './AboutMe.css';
 const AboutMe = () => {
     return (
         <div className="about-me">
-            <div className="information flex-center">
-                <h3>Hello, I'm</h3>
-                <div className="name">PRINCE</div>
-                <h2>Software Engineer</h2>
-                <div className="download-link flex-center">
-                    <button className="button-design cursor-btn">Download Resume</button>
-                    <button className="button-design button-hollow-design cursor-btn">Contact Me</button>
+            <div className="flex-center information">
+                <h4>Hello, I'm</h4>
+                <h1>PRINCE</h1>
+                <h3>Software Engineer</h3>
+                <div className="flex-center download-link">
+                    <button className="button-design cursor-btn">
+                        <h5>Download Resume</h5>
+                    </button>
+                    <button className="button-design button-hollow-design cursor-btn">
+                        <h5>Contact Me</h5>
+                    </button>
                 </div>
-                <div className="my-socials flex-center">
-                    <Icon icon="mdi:linkedin" />
-                    <Icon icon="mingcute:youtube-fill" />
-                    <Icon icon="mdi:github" />                
+                <div className="flex-center my-socials">
+                    {["mdi:linkedin", "mingcute:youtube-fill", "mdi:github"].map(icon => 
+                            <Icon icon={icon} className="cursor-btn"/>
+                    )}               
                 </div>
             </div>
             <div className="coding-animation">

@@ -43,15 +43,15 @@ const technologies = [
 
 const MySkills = () => {
     return (
-        <div className="my-skills">
-            <h2>MY SKILLS</h2>
-            <div className='my-technologies flex-center'>
+        <div className="flex-center my-skills">
+            <h3>MY SKILLS</h3>
+            <div className='flex-center my-technologies'>
             {technologies
             .map(
                 technology =>
-                <div className='technology flex-center'>
+                <div className='flex-center technology'>
                     <Icon icon={technology.logo} fontSize={"1.25rem"}/>
-                    <h3>{technology.name}</h3>
+                    <h6>{technology.name}</h6>
                 </div>)}
 
             </div>

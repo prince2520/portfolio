@@ -28,11 +28,11 @@ const profiles = [
 const CodingProfiles = () => {
     return (
         <div className="coding-profiles">
-            <h2>Coding Profiles</h2>
+            <h3>CODING PROFILES</h3>
             <div className='flex-center coding-profiles-lists'>
                  {
                  profiles.map(profile =>
-                  <div className='coding-profile-li flex-center'>
+                  <div className='coding-profile-li cursor-btn flex-center'>
                     <Icon icon={profile.icon} fontSize={"1.1rem"}/>
                     <h5>{profile.title}</h5>
                   </div>)

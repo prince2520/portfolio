@@ -8,12 +8,12 @@ const DarkLightSwitcher = () => {
 
     return (
         <div 
-        className='dark-light-switcher flex-center cursor-btn' 
+        className='flex-center dark-light-switcher cursor-btn' 
         onClick={()=>isDark(prevState => !prevState)}>
             <Icon
              fontSize={`1.25rem`}
               icon={ dark ? `material-symbols:light-mode-rounded` : `icon-park-outline:dark-mode`}/>
-            <h4>{dark ? `Dark` : `Light`}</h4>
+            <h5>{dark ? `Dark` : `Light`}</h5>
         </div>
     );
 };

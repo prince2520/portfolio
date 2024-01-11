@@ -16,6 +16,13 @@
   --button: #433564;
 }
 
+.dark {
+  --background: #FDFAFF;
+  --border: #585454;
+  --tech-container: #3A3939 ;
+  --button: #433564;
+}
+
 html {
   width: 100vw;
   height: 100vh;
@@ -31,10 +38,46 @@ body {
   font-style: normal;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  width: fit-content;
 }
 
 .cursor-btn {
   cursor: pointer;
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: 1000;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 0.75;
+  font-weight: 500;
+}
+
+p{
+  font-size: 0.85rem;
+  font-weight: 500;
 }

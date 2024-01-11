@@ -29,7 +29,8 @@ const myProjects = [
                 link : '',
                 icon : 'mdi:youtube'
             },
-        ]
+        ],
+        reverse: false
     },
     {
         title : 'Animesuper',
@@ -55,7 +56,8 @@ const myProjects = [
                 link : '',
                 icon : 'mdi:youtube'
             },
-        ]
+        ],
+        reverse: true
     },
     {
         title : 'Animesuper',
@@ -81,7 +83,8 @@ const myProjects = [
                 link : '',
                 icon : 'mdi:youtube'
             },
-        ]
+        ],
+        reverse: false
     },
     {
         title : 'Animesuper',
@@ -107,25 +110,26 @@ const myProjects = [
                 link : '',
                 icon : 'mdi:youtube'
             },
-        ]
+        ],
+        reverse: true
     }
 ];
 
 const Projects = () => {
 
     return (
-        <div className="projects flex-center">
-            <h2>PROJECTS</h2>
+        <div className="projects">
+            <h3>PROJECTS</h3>
+            <div className='flex-center projects-container'>
             {myProjects.map (project =>
-                 <div className='project flex-center'>
+                 <div className={`flex-center project ${project.reverse ? 'reverse-row' : ''}`}>
                     <div className='project-img'>
                         <img src={project.imageUrl}/>
                     </div>
-                    <div className='project-details flex-center'>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
+                    <div className='flex-center project-details'>
+                        <h4 style={{alignSelf:'center'}}>{project.title}</h4>
+                        <p style={{textAlign:'left'}}>{project.description}</p>
                         <div className='tech-used'>
-                            <h5>Tech Used</h5>
                             <div className='tech-lists flex-center'>
                             {project.techUsed.map((tech)=>{
                                 return <div className='tech-list flex-center'>
@@ -134,10 +138,9 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-links'>
-                            <h5>Links</h5>
                             <div className='project-lists flex-center'>
                             {project.links.map((link)=>{
-                                return <div className='project-li flex-center'>
+                                return <div className='project-li cursor-btn flex-center'>
                                     <Icon icon={link.icon} />
                                     <h6>{link.title}</h6>
                                 </div>})}
@@ -145,6 +148,7 @@ const Projects = () => {
                         </div>
                     </div>
                  </div>)}
+            </div>
         </div>
     );
 };

@@ -3,14 +3,14 @@ import './ContactMe.css';
 
 const ContactMe = () => {
     return (
-        <div className="contact-me">
-            <h2>CONTACT ME</h2>
-            <div className='contact-me-container flex-center'>
+        <div className="flex-center contact-me">
+            <h3>CONTACT ME</h3>
+            <div className='flex-center contact-me-container'>
                 <div className="flex-center contact-data">
                     <label>Email</label>
                     <input type="email"/>
                 </div>
-                <div className="contact-data flex-center">
+                <div className="flex-center contact-data">
                     <label>Message</label>
                     <textarea/>
                 </div>

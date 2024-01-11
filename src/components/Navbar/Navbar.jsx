@@ -8,12 +8,12 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className='navbar-icon'>
-                <Icon icon="ph:code-fill" fontSize={'2.5rem'}/>
-                <div className='name'>PRINCE</div>
+                <Icon icon="ph:code-fill"/>
+                <h4>PRINCE</h4>
             </div>
-            <div className='navbar-routes flex-center'>
-                <h4 className='route'>Home</h4>
-                <h4 className='route'>Blogs</h4>
+            <div className='flex-center navbar-routes'>
+                <h5 className='route cursor-btn'>Home</h5>
+                <h5 className='route  cursor-btn'>Blogs</h5>
                 <DarkLightSwitcher/>
             </div>
         </div>

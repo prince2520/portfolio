@@ -22,21 +22,24 @@ const Educations = () => {
 
 
     return (
-        <div className="educations flex-center">
-            <h2>Educations</h2>
+        <div className="educations">
+            <h3>EDUCATIONS</h3>
+            <div className='flex-center education-container'>
             {
                 educations.map(education => {
                     return <div className="education flex-center">
                         <div className="institute">
                             <h4>{education.institute}</h4>
-                            <p>{education.designation}</p>
+                            <h5>{education.designation}</h5>
                         </div>  
                         <div className="marks">
-                            <h3>{education.marks}</h3>
+                            <h5>{education.marks}</h5>
                         </div>
                     </div>
                 })
             }
+
+            </div>
         </div>
     );
 

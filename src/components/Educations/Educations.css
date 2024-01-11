@@ -1,6 +1,9 @@
 .educations{
     width: 100%;
+}
 
+.educations .education-container{
+    width: 100%;
     row-gap: 1rem;
     flex-direction: column;
 }
@@ -14,25 +17,7 @@
 
 }
 
-.education .institute{
-
-}
-
 .institute h3, .institute p{
     margin: 0;
     text-align: left;
-}
-
-.institute p{
-    font-size: 0.8rem;
-}
-
-.marks h3{
-    font-size: 0.8rem;
-}
-
-.marks h3,
-.institute h4
-{
-    font-weight: 800;
 }
