@@ -51,3 +51,14 @@
 .contact-data label{
     width: fit-content;
 }
+
+
+@media screen and (max-width: 480px) {
+    .contact-me {
+        width: 90%;        
+    }
+
+    .contact-me .contact-me-container{
+        padding: 1rem 1.5rem;
+    }    
+}

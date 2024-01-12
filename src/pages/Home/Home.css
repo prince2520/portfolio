@@ -3,3 +3,12 @@
     flex-direction: column;
     row-gap: 6rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    
+    .home {
+        width: 90%;
+    }
+
+}

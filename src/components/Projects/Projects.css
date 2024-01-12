@@ -63,6 +63,8 @@
 
 .project-lists{
     column-gap: 0.75rem;
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .project-lists .project-li{
@@ -71,4 +73,21 @@
     padding: 0.1rem 0.5rem;
 
     column-gap: 0.5rem;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .project .project-img{
+        display: none;
+    }
+    
+    .project .project-details{
+        width: 90%;
+    }
+    
+    .projects .project{
+        padding: 2rem 1rem;
+    }
 }

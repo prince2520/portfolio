@@ -4,10 +4,11 @@ import { mySkills } from '../../data';
 import './MySkills.css';
 
 const MySkills = () => {
-    
+
     return (
         <div className="flex-center my-skills">
             <h3>MY SKILLS</h3>
+            
             <div className='flex-center my-technologies'>
             {mySkills
             .map(

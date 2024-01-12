@@ -7,6 +7,7 @@ const ContactMe = () => {
     return (
         <div className="flex-center contact-me">
             <h3>CONTACT ME</h3>
+            
             <div className='flex-center contact-me-container'>
                 <div className="flex-center contact-data">
                     <h5>Email</h5>

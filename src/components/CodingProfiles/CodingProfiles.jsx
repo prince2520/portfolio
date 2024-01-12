@@ -4,10 +4,11 @@ import { codingProfiles } from '../../data';
 import './CodingProfiles.css';
 
 const CodingProfiles = () => {
-    
+
     return (
         <div className="coding-profiles">
             <h3>CODING PROFILES</h3>
+            
             <div className='flex-center coding-profiles-lists'>
                  {
                  codingProfiles.map(profile =>

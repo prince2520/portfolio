@@ -19,6 +19,7 @@
 
 .navbar-routes {
     column-gap: 1.5rem;
+    display: none;
 }
 
 .navbar-icon h4{
@@ -29,4 +30,13 @@
 .navbar-icon h4
 {
     color: var(--text-secondary);
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .navbar .navbar-icon{
+        font-size: 1.78rem;
+    }
+
 }

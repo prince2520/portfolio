@@ -4,6 +4,9 @@
 
 .coding-profiles .coding-profiles-lists{
     column-gap: 1rem;
+    row-gap: 0.75rem;
+
+    flex-wrap: wrap;
 }
 
 .coding-profiles-lists .coding-profile-li{

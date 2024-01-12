@@ -7,6 +7,7 @@ const Educations = () => {
     return (
         <div className="educations">
             <h3>EDUCATIONS</h3>
+            
             <div className='flex-center education-container'>
             {
                 educations.map(education => {

@@ -14,7 +14,7 @@ const Home = () => {
     const [dark, isDark] = useState(false);
 
     return (
-        <div className={`home flex-center`}>
+        <div className={`flex-center home`}>
             <Navbar/>
             <AboutMe/>
             <MySkills/>

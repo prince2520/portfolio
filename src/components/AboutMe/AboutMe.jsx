@@ -9,7 +9,6 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <div className="flex-center information">
-
                 <h4>Hello, I'm</h4>
                 <h1>PRINCE</h1>
                 <h3>Software Engineer</h3>
@@ -28,9 +27,8 @@ const AboutMe = () => {
                             <Icon icon={icon} className="icon-btn cursor-btn"/>
                     )}               
                 </div>
-
             </div>
-            
+
             <div className="coding-animation">
                 <Lottie animationData={CodingAnimation} loop={true} />
             </div>
