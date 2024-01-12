@@ -1,0 +1,127 @@
+/* common css between components  */
+
+.projects ,
+.educations,
+.coding-profiles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+}
+
+/* overwrite some properties of default html tags  */
+
+input, textarea {
+    outline: none;
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+}
+
+input:hover,
+input:active,
+textarea:hover,
+textarea:active
+{
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 1000;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1,h2,h3,h4{
+    color: var(--text-primary);
+}
+
+h5, h6, p{
+    color: var(--text-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    width: fit-content;
+}
+
+
+
+/* Created a class so that we can use some css properties using class  */
+
+.button-design{
+    background-color: var(--button);
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: white;
+}
+
+.button-hollow-design{
+    border: 2px solid var(--button);
+    background-color: white;
+    color: var(--button);
+}
+
+.color-white {
+    color: white;
+}
+
+.cursor-btn {
+    cursor: pointer;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn {
+    color: var(--text-secondary);
+}
+
+.icon-btn:hover,
+.icon-btn:active{
+    color: var(--text-primary);
+    border-color: var(--text-primary);
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+.round-corner{
+    border-radius: 0.5rem;
+}

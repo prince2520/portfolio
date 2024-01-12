@@ -1,7 +1,10 @@
 .dark-light-switcher{
     column-gap: 0.5rem;
 
-    border: 2px solid black;
+    border: 1px solid var(--border);
     padding: 0.25rem 1rem;
     border-radius: 2rem;
+    color: var(-text-secondary);
+
+    background: var(--container);
 }

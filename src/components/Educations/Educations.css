@@ -14,7 +14,10 @@
 
     border-left: 5px solid var(--border);
     padding-left: 1rem;
+}
 
+.education h5{
+    color: var(--text-primary);
 }
 
 .institute h3, .institute p{

@@ -13,6 +13,9 @@
 
     border: 1px solid var(--border);
 
-    padding: 0.25rem 0.75rem;
-    border-radius: 0.35rem;
+    padding: 0.25rem 0.5rem;
 }
+
+.coding-profile-li  {
+    color: var(--text-secondary);
+} 

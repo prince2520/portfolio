@@ -5,6 +5,8 @@
     align-items: center;
 
     margin: 1rem 0 0;
+
+    color: var(--text-primary);
 }
 
 .navbar .navbar-icon{
@@ -21,4 +23,10 @@
 
 .navbar-icon h4{
     font-weight: 900;
+}
+
+.navbar-icon,
+.navbar-icon h4
+{
+    color: var(--text-secondary);
 }

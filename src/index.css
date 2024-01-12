@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 * {
   box-sizing: border-box;
@@ -11,16 +7,20 @@
   /*--background: #222831;*/
   /*--container: rgba(57, 62, 70, 0.7);*/
   --background: #FDFAFF;
-  --border: #585454;
+  --border: #9f9c9c;
+  --container: #191919;
   --tech-container: #3A3939 ;
   --button: #433564;
+  --text-primary: #000000;
+  --text-secondary: #262728;
 }
 
 .dark {
-  --background: #FDFAFF;
-  --border: #585454;
-  --tech-container: #3A3939 ;
-  --button: #433564;
+  --background: #0F1012;
+  --border: #32363c;
+  --text-primary: #FFFFFF;
+  --text-secondary: #D2D2D2;
+  
 }
 
 html {
@@ -38,46 +38,4 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  width: fit-content;
-}
 
-.cursor-btn {
-  cursor: pointer;
-}
-
-h1{
-  font-size: 3.5rem;
-  font-weight: 1000;
-}
-
-h2{
-  font-size: 2.5rem;
-  font-weight: 900;
-}
-
-h3{
-  font-size: 1.5rem;
-  font-weight: 900;
-}
-
-h4 {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-h5 {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-h6 {
-  font-size: 0.75;
-  font-weight: 500;
-}
-
-p{
-  font-size: 0.85rem;
-  font-weight: 500;
-}

@@ -1,14 +1,74 @@
 .project{
     overflow: hidden;
 
-    column-gap: 2.5rem;
+    column-gap: 5rem;
 }
 
 .projects-container {
     flex-direction: column;
-    row-gap: 1.25rem;
+    row-gap: 3rem;
 }
 
 .project-details{
-    row-gap: 0.75rem;
+    row-gap: 1rem;
+}
+
+.projects .project
+{
+    width: 100%;
+    background-color: var(--container);
+    border: 0.1px solid var(--border);
+
+    padding: 4rem 3rem;
+}
+
+.project .project-img{
+    width: 50%;
+}
+
+.project .project-details{
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.tech-used .tech-lists{
+    column-gap: 0.5rem;
+    row-gap: 0.25rem;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+}
+
+.project-details h2
+{
+    margin: 0;
+}
+
+.tech-lists .tech-list
+{
+    border: 1px solid var(--border);
+
+    padding: 0.1rem 0.25rem;
+
+
+    color: white;
+    background-color: var(--tech-container);
+}
+
+.project-lists{
+    column-gap: 0.75rem;
+}
+
+.project-lists .project-li{
+    border: 1px solid var(--border);
+
+    padding: 0.1rem 0.5rem;
+
+    column-gap: 0.5rem;
 }

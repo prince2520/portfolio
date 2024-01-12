@@ -3,6 +3,7 @@
 
     flex-direction: column;
     row-gap: 2rem;
+    
 }
 
 .contact-me-container .contact-data{
@@ -23,6 +24,8 @@
     border: 1px solid var(--border);
     padding: 2rem 3rem;
 
+    background-color: var(--container);
+
     flex-direction: column;
     row-gap: 1rem;
 
@@ -32,7 +35,7 @@
 .contact-data textarea{
     resize: none;
 
-    min-height: 10rem;
+    min-height: 12.5rem;
 }
 
 .contact-data input,

@@ -38,3 +38,15 @@
 .information .my-socials{
     font-size: 2rem;
 }
+
+
+.download-link .contact-me-btn{
+    background: transparent;
+
+    border-color: var(--text-secondary);
+}
+
+
+.contact-me-btn h5{
+    color: var(--text-secondary);
+}

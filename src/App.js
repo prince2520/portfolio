@@ -1,13 +1,14 @@
+import './common.css'
+import './App.css';
+
 import Home from './pages/Home/Home.js';
 
-import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [dark, isDark] = useState(false);
 
   return (
-    <div className={`App dark`}>
+    <div className={`flex-center App dark`}>
       <Home/>
     </div>
   );
