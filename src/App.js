@@ -3,8 +3,6 @@ import './App.css';
 
 import Home from './pages/Home/Home.js';
 
-import { useState } from 'react';
-
 function App() {
 
   return (

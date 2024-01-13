@@ -4,9 +4,18 @@
     justify-content: space-between;
     align-items: center;
 
-    margin: 1rem 0 0;
 
     color: var(--text-primary);
+
+    padding: 1.5rem 0;
+
+    position: sticky;
+    z-index: 10;
+    top: 0;
+
+
+    background: var(--navbar-background);
+    backdrop-filter: blur(8px);
 }
 
 .navbar-right {
@@ -62,7 +71,4 @@
     .navbar-menu{
         display: block;
     }
-
-    
-
 }
