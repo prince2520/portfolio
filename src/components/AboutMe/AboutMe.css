@@ -1,24 +1,24 @@
 .about-me {
     width: 90%;
     height: 100%;
-
+    
     margin-bottom: 2rem;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     padding-bottom: 5rem;
-
+    
     column-gap: 2rem;
 }
 
 .about-me .information{
     text-align: left;
     flex-direction: column;
-
+    
     align-items: flex-start;
-    row-gap: 0.1rem;
+    row-gap: 1rem;
 }
 
 .about-me .coding-animation{
@@ -33,6 +33,7 @@
 
 .information .download-link{
     column-gap: 1rem;
+    row-gap: 0.5rem;
 }
 
 .information .my-socials{
@@ -42,11 +43,32 @@
 
 .download-link .contact-me-btn{
     background: transparent;
-
+    
     border-color: var(--text-secondary);
 }
 
 
 .contact-me-btn h5{
     color: var(--text-secondary);
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .about-me {
+        justify-content: center;
+    }
+    
+    .about-me .information{
+        text-align: center;       
+        align-items: center;
+    }    
+
+    .about-me .coding-animation{
+        display: none;
+    }
+
+    .information .download-link{
+        flex-direction: column;
+    }
 }
