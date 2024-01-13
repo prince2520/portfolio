@@ -28,6 +28,9 @@
 }
 
 .navbar-menu{
+    position: relative;
+    top: 0.25rem;
+
     display: none;
 }
 
@@ -59,8 +62,7 @@
     .navbar-menu{
         display: block;
     }
-    
-    
+
     
 
 }
