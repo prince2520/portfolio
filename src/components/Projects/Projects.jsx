@@ -22,7 +22,7 @@ const Projects = () => {
                             <div className='tech-lists flex-center'>
                             {project.techUsed.map((tech)=>{
                                 return <div className='tech-list flex-center'>
-                                    <h6>{tech}</h6>
+                                    <h6 className='color-white'>{tech}</h6>
                                 </div>})}
                             </div>
                         </div>

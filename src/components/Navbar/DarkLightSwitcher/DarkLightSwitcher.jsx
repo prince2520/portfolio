@@ -1,19 +1,22 @@
-import { useState } from 'react';
+import { useContext } from 'react';
 import { Icon } from '@iconify/react';
+
+import DarkContext from '../../../context/DarkModeContext';
 
 import './DarkLightSwitcher.css';
 
 const DarkLightSwitcher = () => {
-    const [dark, isDark] = useState(false);
+    const darkCtx = useContext(DarkContext);
 
     return (
         <div 
         className='flex-center dark-light-switcher cursor-btn' 
-        onClick={()=>isDark(prevState => !prevState)}>
+        onClick={()=>darkCtx?.darkHandler()}>
             <Icon
+             className='icon-btn'
              fontSize={`1.25rem`}
-              icon={ dark ? `material-symbols:light-mode-rounded` : `icon-park-outline:dark-mode`}/>
-            <h5>{dark ? `Dark` : `Light`}</h5>
+             icon={ darkCtx?.dark ? `material-symbols:light-mode-rounded` : `icon-park-outline:dark-mode`}/>
+            <h5>{darkCtx?.dark ? `Dark` : `Light`}</h5>
         </div>
     );
 };

@@ -8,7 +8,7 @@
   --background: rgb(253, 250, 255);
   --navbar-background: rgb(253, 250, 255, 0.5);
   --border: rgb(159, 156, 156);
-  --container: rgb(25, 25, 25);
+  --container: rgb(255, 255, 255);
   --tech-container: rgb(58, 57, 57) ;
   --button: rgb(67, 53, 100);
   --text-primary: rgb(0, 0, 0);
@@ -17,6 +17,7 @@
 
 .dark {
   --background: rgb(15, 16, 18);
+  --container: rgb(25, 25, 25);
   --navbar-background: rgb(15, 16, 18, 0.5);
   --border: rgb(50, 54, 60);
   --text-primary: rgb(255, 255, 255);
