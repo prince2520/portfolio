@@ -9,17 +9,30 @@
     color: var(--text-primary);
 }
 
+.navbar-right {
+    column-gap: 0.75rem;
+}
+
+
 .navbar .navbar-icon{
     display: flex;
     align-items: center;
 
-    font-size: 2.5rem;
     column-gap: 0.35rem;
+}
+
+.navbar .navbar-icon,
+.navbar .navbar-menu{
+    font-size: 2.5rem;
+    color: var(--text-secondary);
+}
+
+.navbar-menu{
+    display: none;
 }
 
 .navbar-routes {
     column-gap: 1.5rem;
-    display: none;
 }
 
 .navbar-icon h4{
@@ -38,5 +51,16 @@
     .navbar .navbar-icon{
         font-size: 1.78rem;
     }
+
+    .navbar-routes {
+        display: none;
+    }
+
+    .navbar-menu{
+        display: block;
+    }
+    
+    
+    
 
 }
