@@ -15,7 +15,8 @@
 
 
     background: var(--navbar-background);
-    backdrop-filter: blur(8px);
+    transition: 0.5s ease-out;
+    backdrop-filter: blur(6px);
 }
 
 .navbar-right {

@@ -11,7 +11,6 @@ function App() {
 
   const darkCtx = useContext(DarkContext);
 
-
   return (
       <div className={`flex-center App ${darkCtx.dark ? 'dark' : ''} `}>
         <Home/>

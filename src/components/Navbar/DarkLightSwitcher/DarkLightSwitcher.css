@@ -7,4 +7,6 @@
     color: var(-text-secondary);
 
     background: var(--container);
+
+    transition: all 0.5s ease-out;
 }
