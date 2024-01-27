@@ -124,14 +124,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-design{
     background-color: var(--button);
+    border: 1px solid var(--button);
     padding: 0.5rem 1.5rem;
-    border: none;
     color: white;
 }
+
 
 .button-hollow-design{
     border: 2px solid var(--button);
     background-color: white;
+    color: var(--button);
+}
+
+.button-hollow-design:hover,
+.button-hollow-design:active
+{
+    border-color: var(--button);
+}
+
+.button-design:hover,
+.button-design:active{
+    background-color: white;
+}
+
+.button-design:hover h5,
+.button-design:active h5
+{
     color: var(--button);
 }
 

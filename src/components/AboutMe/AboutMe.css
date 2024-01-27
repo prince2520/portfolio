@@ -47,6 +47,13 @@
     border-color: var(--text-secondary);
 }
 
+.download-link .contact-me-btn:hover,
+.download-link .contact-me-btn:active
+{
+    border: 2px solid var(--button);
+
+}
+
 
 .contact-me-btn h5{
     color: var(--text-secondary);

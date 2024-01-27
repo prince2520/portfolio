@@ -50,6 +50,12 @@
     column-gap: 0.5rem;
 }
 
+.contact-me-container .send-btn:hover,
+.contact-me-container .send-btn:active
+{
+    color: var(--button);
+}
+
 .contact-data label{
     width: fit-content;
 }
