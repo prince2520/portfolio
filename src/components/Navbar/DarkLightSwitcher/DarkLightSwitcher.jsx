@@ -16,7 +16,7 @@ const DarkLightSwitcher = () => {
              className='icon-btn'
              fontSize={`1.25rem`}
              icon={ darkCtx?.dark ? `material-symbols:light-mode-rounded` : `icon-park-outline:dark-mode`}/>
-            <h5>{darkCtx?.dark ? `Dark` : `Light`}</h5>
+            <h5>{!darkCtx?.dark ? `Dark` : `Light`}</h5>
         </div>
     );
 };
