@@ -17,8 +17,24 @@
     border: 1px solid var(--border);
 
     padding: 0.25rem 0.5rem;
+
+    color: var(--text-secondary);
 }
 
-.coding-profile-li  {
-    color: var(--text-secondary);
-} 
+
+.coding-profiles-lists .coding-profile-li:hover,
+.coding-profiles-lists .coding-profile-li:active
+{
+    border: 1px solid var(--text-primary);
+    transform: scale(1.05);
+
+}
+
+.coding-profile-li:hover h5,
+.coding-profile-li:active h5,
+.coding-profile-li:hover svg,
+.coding-profile-li:active svg
+{
+    color: var(--text-primary);
+}
+

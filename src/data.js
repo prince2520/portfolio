@@ -119,17 +119,17 @@ export const educations =  [
     {
         institute: 'GB Pant Govt. Engineering College',
         designation: 'Bachelor of Technology',
-        marks: '8.640 CGPA'
+        marks: '8.64 CGPA'
     },
     {
         institute: 'Sarvodaya CoEd S S S F/U Blk Pitampura',
         designation: '12th , Science',
-        marks: '79 %'
+        marks: '79.00 %'
     },
     {
         institute: 'Mata SukhDevi Public School Nangli Poona',
         designation: '10th',
-        marks: '8.2 CGPA'
+        marks: '9.20 CGPA'
     }
 ];
 
