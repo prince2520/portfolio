@@ -18,9 +18,9 @@ const Navbar = () => {
                     <h5 className='route  cursor-btn'>Blogs</h5>
                 </div> */}
                 <DarkLightSwitcher/>
-                <div className='flex-center cursor-btn navbar-menu'>
+                {/* <div className='flex-center cursor-btn navbar-menu'>
                     <Icon icon="ic:round-menu" fontSize={"2rem"}/>
-                </div>
+                </div> */}
             </div>
     
         </div>
