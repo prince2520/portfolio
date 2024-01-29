@@ -31,13 +31,13 @@
 
     width: 100%;
 
-    transition: all 0.01s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .contact-me .contact-me-container:hover,
 .contact-me .contact-me-container:active
 {  
-    border: 1.25px solid var(--text-primary);
+    border: 1px solid var(--text-primary);
     transform: scale(1.01);
 }
 
