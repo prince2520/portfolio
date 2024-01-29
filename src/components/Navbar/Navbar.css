@@ -59,6 +59,16 @@
 }
 
 
+.navbar-icon:hover svg,
+.navbar-icon:active svg,
+.navbar-icon:hover h4,
+.navbar-icon:hover h4
+{
+    color: var(--text-primary);
+}
+
+
+
 @media screen and (max-width: 480px) {
     
     .navbar .navbar-icon{
