@@ -13,6 +13,7 @@
   --button: rgb(67, 53, 100);
   --text-primary: rgb(0, 0, 0);
   --text-secondary: rgb(38, 39, 40);
+  --border-hover : rgb(67, 69, 70);
 }
 
 .dark {
@@ -22,7 +23,7 @@
   --border: rgb(50, 54, 60);
   --text-primary: rgb(255, 255, 255);
   --text-secondary: rgb(210, 210, 210);
-
+  --border-hover : rgb(97, 100, 103);
 }
 
 html {

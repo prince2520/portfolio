@@ -1,132 +1,143 @@
-.project{
-    overflow: hidden;
-    column-gap: 5rem;
-    overflow: hidden;
+.project {
+  overflow: hidden;
+  column-gap: 5rem;
+  overflow: hidden;
 }
-
 
 .projects-container {
-    flex-direction: column;
-    row-gap: 3rem;
-    transition: all 0.4s ease-out;
+  flex-direction: column;
+  row-gap: 3rem;
+  transition: all 0.4s ease-out;
 }
 
-.project-details{
-    row-gap: 1rem;
+.project-details {
+  row-gap: 1rem;
 }
 
-.projects .project
-{
-    width: 100%;
-    background-color: var(--container);
-    border: 1px solid var(--border);
+.projects .project {
+  width: 100%;
+  background-color: var(--container);
+  border: 1px solid var(--border);
 
-    padding: 4rem 3rem;
+  padding: 4rem 3rem;
 }
 
-.projects .project:hover,
-.projects .project:active
-{
-    border: 1px solid var(--text-primary);
-    transform: scale(1.01);
+.projects .project:hover {
+  border: 1px solid var(--border-hover);
+  transform: scale(1.01);
 }
 
+.project .project-img {
+  position: relative;
+  width: 50%;
+  transform: scale(1.7) translateX(-90px) translateY(35px) rotate(5deg);
 
-.project .project-img{
-    position: relative;
-    width: 50%;
-    transform: scale(1.7) translateX(-90px) translateY(35px) rotate(5deg);
-
-    transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-.project:hover .project-img{
-    transform: scale(1.7) translateX(-90px) translateY(35px) rotate(0);
+.project:hover .project-img {
+  transform: scale(1.7) translateX(-90px) translateY(35px) rotate(0);
 }
 
-.project.reverse-row .project-img{
-    transform:scale(1.7) translateX(90px) translateY(35px) rotate(-5deg);   
+.project.reverse-row .project-img {
+  transform: scale(1.7) translateX(90px) translateY(35px) rotate(-5deg);
 }
 
-.project.reverse-row:hover .project-img{
-    transform: scale(1.7) translateX(90px) translateY(35px) rotate(0);
+.project.reverse-row:hover .project-img {
+  transform: scale(1.7) translateX(90px) translateY(35px) rotate(0);
 }
 
-.project .project-details{
-    width: 50%;
-    flex-direction: column;
-    align-items: flex-start;
+.project .project-details {
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.project-img img{
-    width: 100%;
+.project-img img {
+  width: 100%;
 }
 
-.tech-used .tech-lists{
-    column-gap: 0.5rem;
-    row-gap: 0.25rem;
+.tech-used .tech-lists {
+  column-gap: 0.5rem;
+  row-gap: 0.25rem;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
-.project-details h2
-{
-    margin: 0;
+.project-details h2 {
+  margin: 0;
 }
 
-.tech-lists .tech-list
-{
-    border: 1px solid var(--border);
+.tech-lists .tech-list {
+  border: 1px solid var(--border);
 
-    padding: 0.1rem 0.25rem;
+  padding: 0.1rem 0.25rem;
 
-
-    color: white;
-    background-color: var(--tech-container);
+  color: white;
+  background-color: var(--tech-container);
 }
 
-.project-lists{
-    column-gap: 0.75rem;
-    row-gap: 0.5rem;
-    flex-wrap: wrap;
+.project-lists {
+  column-gap: 0.75rem;
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
-.project-lists .project-li{
-    border: 1px solid var(--border);
+.project-lists .project-li {
+  border: 1px solid var(--border);
 
-    padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.5rem;
 
-    column-gap: 0.5rem;
+  column-gap: 0.5rem;
 }
-
 
 .project-li:hover,
-.project-li:active
-{
-    border: 1px solid var(--text-primary);
+.project-li:active {
+  border: 1px solid var(--text-primary);
 }
 
 .project-li:hover svg,
 .project-li:active svg,
 .project-li:hover h6,
-.project-li:active h6{
-    color: var(--text-primary);
+.project-li:active h6 {
+  color: var(--text-primary);
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project .project-img {
+    display: none;
+  }
 
-@media screen and (max-width: 480px) {
-    
-    .project .project-img{
-        display: none;
-    }
-    
-    .project .project-details{
-        width: 90%;
-    }
-    
-    .projects .project{
-        padding: 2rem 1rem;
-    }
+  .project .project-details {
+    width: 90%;
+  }
+
+  .projects .project {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .project .project-img {
+    display: none;
+  }
+
+  .project .project-details {
+    width: 85%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .project .project-img {
+    display: none;
+  }
+
+  .project .project-details {
+    width: 80%;
+  }
 }

@@ -1,23 +1,22 @@
 .my-skills {
-    flex-direction: column;
-    row-gap: 2rem;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
-.my-skills .my-technologies{
-    column-gap: 1rem;
-    row-gap: 0.5rem;
-    flex-wrap: wrap;
-
+.my-skills .my-technologies {
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .my-technologies .technology {
-    flex-direction: row;
-    column-gap: 0.5rem;
+  flex-direction: row;
+  column-gap: 0.5rem;
 
-    border: 1px solid var(--border);
-    padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.75rem;
 }
 
-.technology p{ 
-    font-weight: 700;
+.technology p {
+  font-weight: 700;
 }

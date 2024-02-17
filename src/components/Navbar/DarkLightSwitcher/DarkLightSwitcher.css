@@ -1,27 +1,24 @@
-.dark-light-switcher{
-    column-gap: 0.5rem;
+.dark-light-switcher {
+  column-gap: 0.5rem;
 
-    border: 1px solid var(--border);
-    padding: 0.25rem 1rem;
-    border-radius: 2rem;
-    color: var(--text-secondary);
+  border: 1px solid var(--border);
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  color: var(--text-secondary);
 
-    background: var(--container);
+  background: var(--container);
 
-    transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .dark-light-switcher:hover,
-.dark-light-switcher:active
-{
-    border: 1px solid var(--text-primary);
+.dark-light-switcher:active {
+  border: 1px solid var(--text-primary);
 }
-
 
 .dark-light-switcher:hover h5,
 .dark-light-switcher:active h5,
 .dark-light-switcher:hover svg,
-.dark-light-switcher:active svg
-{
-    color: var(--text-primary);
+.dark-light-switcher:active svg {
+  color: var(--text-primary);
 }

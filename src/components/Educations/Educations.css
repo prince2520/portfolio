@@ -1,26 +1,27 @@
-.educations{
-    width: 100%;
+.educations {
+  width: 100%;
 }
 
-.educations .education-container{
-    width: 100%;
-    row-gap: 1rem;
-    flex-direction: column;
+.educations .education-container {
+  width: 100%;
+  row-gap: 1rem;
+  flex-direction: column;
 }
 
-.educations .education{
-    width: 100%;
-    justify-content: space-between;
+.educations .education {
+  width: 100%;
+  padding-left: 1rem;
+  justify-content: space-between;
 
-    border-left: 5px solid var(--border);
-    padding-left: 1rem;
+  border-left: 5px solid var(--border);
 }
 
-.education h5{
-    color: var(--text-primary);
+.education h5 {
+  color: var(--text-primary);
 }
 
-.institute h3, .institute p{
-    margin: 0;
-    text-align: left;
+.institute h3,
+.institute p {
+  margin: 0;
+  text-align: left;
 }

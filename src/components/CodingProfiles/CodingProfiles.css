@@ -1,40 +1,35 @@
-.coding-profiles{
-    width: 100%;
+.coding-profiles {
+  width: 100%;
 }
 
-.coding-profiles .coding-profiles-lists{
-    column-gap: 1rem;
-    row-gap: 0.75rem;
+.coding-profiles .coding-profiles-lists {
+  column-gap: 1rem;
+  row-gap: 0.75rem;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.coding-profiles-lists .coding-profile-li{
-    flex-direction: row;  
-    
-    column-gap: 0.75rem;
+.coding-profiles-lists .coding-profile-li {
+  flex-direction: row;
 
-    border: 1px solid var(--border);
+  column-gap: 0.75rem;
 
-    padding: 0.25rem 0.5rem;
+  border: 1px solid var(--border);
 
-    color: var(--text-secondary);
+  padding: 0.25rem 0.5rem;
+
+  color: var(--text-secondary);
 }
-
 
 .coding-profiles-lists .coding-profile-li:hover,
-.coding-profiles-lists .coding-profile-li:active
-{
-    border: 1px solid var(--text-primary);
-    transform: scale(1.05);
-
+.coding-profiles-lists .coding-profile-li:active {
+  border: 1px solid var(--text-primary);
+  transform: scale(1.05);
 }
 
 .coding-profile-li:hover h5,
 .coding-profile-li:active h5,
 .coding-profile-li:hover svg,
-.coding-profile-li:active svg
-{
-    color: var(--text-primary);
+.coding-profile-li:active svg {
+  color: var(--text-primary);
 }
-
