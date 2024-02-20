@@ -1,10 +1,10 @@
 .about-me {
-  width: 90%;
+  width: 80%;
   height: 100%;
 
   margin-bottom: 2rem;
 
-  justify-content: space-between;
+  justify-content: space-between!important;
   column-gap: 2rem;
 
   padding-bottom: 5rem;
@@ -56,7 +56,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .about-me {
-    justify-content: center;
+    justify-content: center!important;
   }
 
   .about-me .information {
@@ -76,7 +76,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .about-me {
-    justify-content: center;
+    justify-content: center!important;
   }
 
   .about-me .information {
@@ -96,7 +96,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .about-me {
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 
   .about-me .information {
@@ -116,7 +116,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .about-me {
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 
   .about-me .information {
