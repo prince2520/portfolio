@@ -11,6 +11,10 @@
 
 /* overwrite some properties of default html tags  */
 
+a{
+    text-decoration: none;
+}
+
 input, textarea {
     outline: none;
     padding: 0.5rem 0.75rem;

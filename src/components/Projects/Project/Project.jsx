@@ -26,10 +26,10 @@ const Project = ({ project }) => {
           <div className="project-lists flex-center">
             {project.links.map((link) => {
               return (
-                <div className="project-li cursor-btn flex-center">
+                <a  target="_blank" href={link.link} className="project-li cursor-btn flex-center">
                   <Icon className="icon-btn" icon={link.icon} />
                   <h6>{link.title}</h6>
-                </div>
+                </a>
               );
             })}
           </div>

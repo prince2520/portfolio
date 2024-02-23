@@ -5,10 +5,7 @@ export const myProjects = [
   {
     title: "Animesuper",
     imageUrl: AnimeSuper,
-    description: `AnimeSuper is the ultimate destination for anime enthusiasts,
-         providing a seamless platform to organize your favorite anime and manga while keeping you updated 
-         on the latest trends within the vibrant anime community.😊
-        `,
+    description: `AnimeSuper: ultimate hub for anime fans, seamless platform to organize favorites, and stay updated on trends.😊        `,
     techUsed: [
       "HTML",
       "CSS",
@@ -23,22 +20,22 @@ export const myProjects = [
     links: [
       {
         title: "Website",
-        link: "",
+        link: "https://animesuper.vercel.app/",
         icon: "mdi:web",
       },
       {
         title: "Github",
-        link: "",
+        link: "https://github.com/prince2520/animesuper",
         icon: "mdi:github",
       },
       {
         title: "Youtube",
-        link: "",
+        link: "https://youtu.be/0NogpVVX1H4",
         icon: "mdi:youtube",
       },
       {
         title: "Figma",
-        link: "",
+        link: "https://www.figma.com/file/HVnROhqnB55YlNtuJKuyDy/Anime-Project?type=design&node-id=3%3A75&mode=design&t=QVytotlyazcxi008-1",
         icon: "solar:figma-bold-duotone",
       }
     ],
@@ -82,7 +79,7 @@ export const myProjects = [
         title: "Figma",
         link: "",
         icon: "solar:figma-bold-duotone",
-      }
+      },
     ],
     reverse: true,
   },
@@ -124,7 +121,7 @@ export const myProjects = [
         title: "Figma",
         link: "",
         icon: "solar:figma-bold-duotone",
-      }
+      },
     ],
     reverse: false,
   },
@@ -166,7 +163,7 @@ export const myProjects = [
         title: "Figma",
         link: "",
         icon: "solar:figma-bold-duotone",
-      }
+      },
     ],
     reverse: true,
   },
