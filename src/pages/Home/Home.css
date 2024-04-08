@@ -1,6 +1,6 @@
 .home {
-  width: 80%;
-  max-width: 60rem;
+  width: 85%;
+  max-width: 65rem;
   flex-direction: column;
   row-gap: 4rem;
 }

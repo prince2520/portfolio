@@ -59,7 +59,8 @@ export const myProjects = [
       "Firebase Storage",
       "Redux ToolKit",
       "Socket.IO",
-      "Express"
+      "Express",
+      "Figma"
     ],
     links: [
       {
@@ -74,7 +75,7 @@ export const myProjects = [
       },
       {
         title: "Youtube",
-        link: "",
+        link: "https://www.youtube.com/watch?v=Dq76QVwMyxc",
         icon: "mdi:youtube",
       },
       {
