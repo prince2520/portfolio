@@ -1,4 +1,6 @@
 import AnimeSuper from "./assests/images/projects/AnimeSuper.png";
+import ChitChat from "./assests/images/projects/ChitChat.png";
+
 
 /* Component - Projects  */
 export const myProjects = [
@@ -42,32 +44,32 @@ export const myProjects = [
     reverse: false,
   },
   {
-    title: "Animesuper",
-    imageUrl: AnimeSuper,
-    description: `AnimeSuper is the ultimate destination for anime enthusiasts,
-         providing a seamless platform to organize your favorite anime and manga while keeping you updated 
-         on the latest trends within the vibrant anime community.😊
+    title: "ChitChat",
+    imageUrl: ChitChat,
+    description: `ChitChat: Your vibrant hub for forging connections, fostering friendships, and seamlessly exchanging media through video calls and messages.
         `,
     techUsed: [
       "HTML",
       "CSS",
       "JavaScript",
       "React",
-      "Django",
-      "SQLite",
-      "Figma",
+      "Node.js",
+      "MongoDB",
+      "Simple Peer",
       "Firebase Storage",
       "Redux ToolKit",
+      "Socket.IO",
+      "Express"
     ],
     links: [
       {
         title: "Website",
-        link: "",
+        link: "https://chiitchat.vercel.app/auth/login",
         icon: "mdi:web",
       },
       {
         title: "Github",
-        link: "",
+        link: "https://github.com/prince2520/chitchat",
         icon: "mdi:github",
       },
       {
@@ -77,96 +79,12 @@ export const myProjects = [
       },
       {
         title: "Figma",
-        link: "",
+        link: "https://www.figma.com/file/HVnROhqnB55YlNtuJKuyDy/Anime-Project?type=design&node-id=19%3A112&mode=design&t=gd7zC0TaffN7I7oY-1",
         icon: "solar:figma-bold-duotone",
       },
     ],
     reverse: true,
-  },
-  {
-    title: "Animesuper",
-    imageUrl: AnimeSuper,
-    description: `AnimeSuper is the ultimate destination for anime enthusiasts,
-         providing a seamless platform to organize your favorite anime and manga while keeping you updated 
-         on the latest trends within the vibrant anime community.😊
-        `,
-    techUsed: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Django",
-      "SQLite",
-      "Figma",
-      "Firebase Storage",
-      "Redux ToolKit",
-    ],
-    links: [
-      {
-        title: "Website",
-        link: "",
-        icon: "mdi:web",
-      },
-      {
-        title: "Github",
-        link: "",
-        icon: "mdi:github",
-      },
-      {
-        title: "Youtube",
-        link: "",
-        icon: "mdi:youtube",
-      },
-      {
-        title: "Figma",
-        link: "",
-        icon: "solar:figma-bold-duotone",
-      },
-    ],
-    reverse: false,
-  },
-  {
-    title: "Animesuper",
-    imageUrl: AnimeSuper,
-    description: `AnimeSuper is the ultimate destination for anime enthusiasts,
-         providing a seamless platform to organize your favorite anime and manga while keeping you updated 
-         on the latest trends within the vibrant anime community.😊
-        `,
-    techUsed: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Django",
-      "SQLite",
-      "Figma",
-      "Firebase Storage",
-      "Redux ToolKit",
-    ],
-    links: [
-      {
-        title: "Website",
-        link: "",
-        icon: "mdi:web",
-      },
-      {
-        title: "Github",
-        link: "",
-        icon: "mdi:github",
-      },
-      {
-        title: "Youtube",
-        link: "",
-        icon: "mdi:youtube",
-      },
-      {
-        title: "Figma",
-        link: "",
-        icon: "solar:figma-bold-duotone",
-      },
-    ],
-    reverse: true,
-  },
+  }
 ];
 
 /* Component - Education  */

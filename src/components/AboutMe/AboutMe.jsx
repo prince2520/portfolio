@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className="flex-center information">
         <h4>Hello, I'm</h4>
         <h1>PRINCE</h1>
-        <h3 style={{ textWrap: "nowrap" }}>Software Engineer</h3>
+        <h3 style={{ textWrap: "nowrap" }}>Software Developer</h3>
 
         <div className="flex-center download-link">
           <button className="button-design cursor-btn">
