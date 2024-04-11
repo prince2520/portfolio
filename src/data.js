@@ -18,6 +18,10 @@ export const mySocials = [
   {
     icon: "material-symbols:mail",
     link: "mailto:prince2520p@gmail.com"
+  },
+  {
+    icon: "tabler:brand-linktree",
+    link: "https://linktr.ee/dev.prince"
   }
 ]
 
