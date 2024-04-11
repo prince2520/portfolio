@@ -1,5 +1,6 @@
 import Lottie from "lottie-react";
 import { Icon } from "@iconify/react";
+import { mySocials } from "../../data";
 
 import CodingAnimation from "../../assests/animations/Coding.json";
 
@@ -21,11 +22,10 @@ const AboutMe = () => {
             <h5 className="contact-me-btn-heading">Contact Me</h5>
           </button>
         </div>
-
         <div className="flex-center my-socials">
-          {["mdi:linkedin", "mingcute:youtube-fill", "mdi:github"].map(
-            (icon) => (
-              <Icon icon={icon} className="icon-btn cursor-btn" />
+          {mySocials.map(
+            (social) => (
+              <a href={social.link} target="_blank" ><Icon icon={social.icon} className="icon-btn cursor-btn" /></a>
             )
           )}
         </div>

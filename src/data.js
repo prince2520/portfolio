@@ -1,6 +1,25 @@
 import AnimeSuper from "./assests/images/projects/AnimeSuper.png";
 import ChitChat from "./assests/images/projects/ChitChat.png";
 
+// My Socials 
+export const mySocials = [
+  {
+    icon: "mdi:linkedin",
+    link: "https://www.linkedin.com/in/prince-04273a1a2/"
+  },
+  {
+    icon: "bi:github",
+    link: "https://github.com/prince2520"
+  },
+  {
+    icon: "formkit:twitter",
+    link: "https://twitter.com/dev_prince123"
+  },
+  {
+    icon: "material-symbols:mail",
+    link: "mailto:prince2520p@gmail.com"
+  }
+]
 
 /* Component - Projects  */
 export const myProjects = [

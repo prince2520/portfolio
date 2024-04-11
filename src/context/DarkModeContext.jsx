@@ -6,7 +6,7 @@ const DarkContext = React.createContext({
 });
 
 export const DarkContextProvider = (props) => {
-    const [dark, isDark] = useState(false);
+    const [dark, isDark] = useState(true);
 
     const darkHandler = () => isDark(prevState=>!prevState);
 
