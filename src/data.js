@@ -12,7 +12,7 @@ export const mySocials = [
     link: "https://github.com/prince2520"
   },
   {
-    icon: "formkit:twitter",
+    icon: "mingcute:twitter-fill",
     link: "https://twitter.com/dev_prince123"
   },
   {
