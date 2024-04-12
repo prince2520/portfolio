@@ -17,7 +17,6 @@ const Home = () => {
       <AboutMe />
       <MySkills />
       <Projects />
-      <CodingProfiles />
       <Educations />
       <ContactMe />
       <h6
