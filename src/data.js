@@ -103,7 +103,7 @@ export const myProjects = [
       },
       {
         title: "Figma",
-        link: "https://www.figma.com/file/HVnROhqnB55YlNtuJKuyDy/Anime-Project?type=design&node-id=19%3A112&mode=design&t=gd7zC0TaffN7I7oY-1",
+        link: "https://www.figma.com/file/bd0paKNg49My3fX5vHR9r4/ChitChat?type=design&node-id=0%3A1&mode=design&t=33lYqE1rsVVEVnTk-1",
         icon: "solar:figma-bold-duotone",
       },
     ],
