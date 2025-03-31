@@ -139,7 +139,7 @@ export const myProjects = [
     links: [
       {
         title: "Website",
-        link: "https://ghostmail-1.onrender.com",
+        link: "https://ghostmail.vercel.app/",
         icon: "mdi:web",
       },
       {
