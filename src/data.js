@@ -1,5 +1,6 @@
 import AnimeSuper from "./assests/images/projects/AnimeSuper.png";
 import ChitChat from "./assests/images/projects/ChitChat.png";
+import Ghostmail from "./assests/images/projects/GhostMail.png";
 
 // My Socials 
 export const mySocials = [
@@ -108,6 +109,56 @@ export const myProjects = [
       },
     ],
     reverse: true,
+  },
+  {
+    title: "Ghostmail",
+    imageUrl: Ghostmail,
+    description: `Ghostmail: Say goodbye to spam, ads, and hackers. Ghostmail offers a free, secure, and anonymous disposable email address to keep your inbox clean and safe. `,
+    techUsed: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Redux ToolKit",
+      
+      "Node.js",
+      "Express",
+      "Socket.IO",
+
+      "MySQL",
+      "SMTP",
+      "Supabase",
+      "Google Authentication",
+      "Shadcn",
+      
+      "Figma"
+    ],
+    links: [
+      {
+        title: "Website",
+        link: "https://ghostmail-1.onrender.com",
+        icon: "mdi:web",
+      },
+      {
+        title: "Github",
+        link: "https://github.com/prince2520/ghostmail",
+        icon: "mdi:github",
+      },
+      {
+        title: "Youtube",
+        link: "https://www.youtube.com/watch?v=rkjIEatycIw",
+        icon: "mdi:youtube",
+      },
+      {
+        title: "Figma",
+        link: "https://www.figma.com/design/EkxXdxsvDlXKSoGhVVzZiW/Ghostmail?node-id=5-3&t=yNlgJxOTxcbEpg49-1",
+        icon: "solar:figma-bold-duotone",
+      },
+    ],
+    reverse: false,
   }
 ];
 
